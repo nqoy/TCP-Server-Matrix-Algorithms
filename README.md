@@ -6,7 +6,7 @@ The algorithmic operations and the handling of server clients are performed in p
 At the end of each operation the client receives the output of the relevant task.  
 
 Tasks:  
-Finding SCC - Strongly connected component.  
+Finding SCC - Strongly connected components.  
 Shortest paths from one index to another.  
 Lightest paths from one index to another.  
 Number of submarines:  
