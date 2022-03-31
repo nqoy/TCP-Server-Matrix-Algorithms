@@ -33,7 +33,7 @@
 ## 3.Submarine game:<br />
  input: `Binary matrix` <br />
  output- `Number of proper submarines`<br />
- #### rules:
+ ### Rules:
    1.At least two "1" in vertical.<br />
    2.At least two "1" in horizontal.<br />
    3.Cannot be two "1" in diagonal unless for both sections 1 and 2 are met.<br />
