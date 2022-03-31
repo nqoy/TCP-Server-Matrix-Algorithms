@@ -4,9 +4,9 @@
  A TCP server that handles algorithmic operations on matrices of data, depending on the type of task he was given.<br />
  The various operations and client handling is executed Asynchronously via multithreading.<br />
 
-# Server Tasks:
+## Server Tasks:
 
-## 1.Find strong connected components, including diagonal connections:<br />
+### 1.Find strong connected components, including diagonal connections:<br />
  input: `Binary matrix` <br />
  output: `List of SCC, sort by the size of single SCC`.<br />
  Example: <br />
@@ -18,7 +18,7 @@
  
  output: [(0,0), (1,0), (1,2), (2,1), (2,2)]
 ````
-## 2.Find shortest paths between two nodes:<br />
+### 2.Find shortest paths between two nodes:<br />
  input: `Binary matrix` (50* 50 is the limit)<br />
  output: `List of the shortest paths from source node and destination node`.<br />
  Example: <br />
@@ -30,10 +30,10 @@
  
  output: [[(0, 0), (1, 0), (2,1), (2,2)], [(0, 0), (0, 1), (1, 2), (2, 2)]]
 ````
-## 3.Submarine game:<br />
+### 3.Submarine game:<br />
  input: `Binary matrix` <br />
  output- `Number of proper submarines`<br />
- ### Rules:
+ #### Rules:
    1.At least two "1" in vertical.<br />
    2.At least two "1" in horizontal.<br />
    3.Cannot be two "1" in diagonal unless for both sections 1 and 2 are met.<br />
@@ -53,7 +53,7 @@
  
  output: 3
 ````
-## 4.Find the lightest path between two nodes:<br />
+### 4.Find the lightest path between two nodes:<br />
  input- `Metrix of integers, source & destination nodes` .<br />
  output- `list of the lightest paths`.<br />
  Example:<br />
@@ -66,7 +66,7 @@
      
  output: [(1, 0), (0, 0), (0, 1), (0, 2), (1, 2)]
  ```` 
- ## Instructions:
+ ### Instructions:
  1.Download the code.<br />
  2.Run the TCPServer.<br />
  3.Enter any key.<br />
