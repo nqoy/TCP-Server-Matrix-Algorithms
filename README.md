@@ -66,8 +66,8 @@
      
  output: [(1, 0), (0, 0), (0, 1), (0, 2), (1, 2)]
  ```` 
- ## Instructions for running the code:
- 1.download the code.<br />
+ ## Instructions:
+ 1.Download the code.<br />
  2.Run the TCPServer.<br />
  3.Enter any key.<br />
  4.Run the client (can execute multiple clients).<br />
