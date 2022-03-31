@@ -11,24 +11,24 @@
  output: `List of SCC, sort by the size of single SCC`.<br />
  example: <br />
  ````
- input-<br />
- > [1, 0, 0]<br />
- > [1, 0, 1]<br />
- > [0, 1, 1]<br />
+ input:
+[1, 0, 0]
+[1, 0, 1]
+[0, 1, 1]
  
- output- [(0,0), (1,0), (1,2), (2,1), (2,2)]<br />
+ output: [(0,0), (1,0), (1,2), (2,1), (2,2)]
 ````
 ## 2.Find shortest paths between two nodes:<br />
  input: `Binary matrix` (50* 50 is the limit)<br />
  output- `List of the shortest paths from source node and destination node`.<br />
  example: <br />
  ````
- input-<br />
- > [1, 1, 0]<br />
- > [1, 0, 1]<br />
- > [0, 1, 1]<br />
+ input:
+ [1, 1, 0]
+ [1, 0, 1]
+ [0, 1, 1]
  
- output- [[(0, 0), (1, 0), (2,1), (2,2)], [(0, 0), (0, 1), (1, 2), (2, 2)]]<br />
+ output: [[(0, 0), (1, 0), (2,1), (2,2)], [(0, 0), (0, 1), (1, 2), (2, 2)]]
 ````
 ## 3.Submarine game:<br />
  input: `Binary matrix` <br />
