@@ -20,7 +20,7 @@
 ````
 ## 2.Find shortest paths between two nodes:<br />
  input: `Binary matrix` (50* 50 is the limit)<br />
- output- `List of the shortest paths from source node and destination node`.<br />
+ output: `List of the shortest paths from source node and destination node`.<br />
  Example: <br />
  ````
  input:
