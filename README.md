@@ -68,7 +68,7 @@
  ```` 
  ### Instructions:
  1.Download the code.<br />
- 2.Run the TCPServer.<br />
+ 2.Run the TCP Server.<br />
  3.Enter any key.<br />
  4.Run the client (can execute multiple clients).<br />
  5.Follow the menu of the program.<br />
