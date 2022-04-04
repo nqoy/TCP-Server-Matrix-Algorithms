@@ -9,32 +9,32 @@ At the end of each operation the client receives the output of the relevant task
 ## Server Tasks:
 
 ### 1.Find strong connected components, including diagonal connections:<br />
- input: `Binary matrix` <br />
- output: `List of SCC, sort by the size of single SCC`.<br />
+ Input: `Binary matrix` <br />
+ Output: `List of SCC, sort by the size of single SCC`.<br />
  Example: <br />
  ````
- input:
+ Input:
 [1, 0, 0]
 [1, 0, 1]
 [0, 1, 1]
  
- output: [(0,0), (1,0), (1,2), (2,1), (2,2)]
+ Output: [(0,0), (1,0), (1,2), (2,1), (2,2)]
 ````
 ### 2.Find shortest paths between two nodes:<br />
- input: `Binary matrix` (50* 50 is the limit)<br />
- output: `List of the shortest paths from source node and destination node`.<br />
+ Input: `Binary matrix` (50* 50 is the limit)<br />
+ Output: `List of the shortest paths from source node and destination node`.<br />
  Example: <br />
  ````
- input:
+ Input:
  [1, 1, 0]
  [1, 0, 1]
  [0, 1, 1]
  
- output: [[(0, 0), (1, 0), (2,1), (2,2)], [(0, 0), (0, 1), (1, 2), (2, 2)]]
+ Output: [[(0, 0), (1, 0), (2,1), (2,2)], [(0, 0), (0, 1), (1, 2), (2, 2)]]
 ````
 ### 3.Submarine game:<br />
- input: `Binary matrix` <br />
- output- `Number of proper submarines`<br />
+ Input: `Binary matrix` <br />
+ Output- `Number of proper submarines`<br />
  #### Rules:
    1.At least two "1" in vertical.<br />
    2.At least two "1" in horizontal.<br />
@@ -42,31 +42,31 @@ At the end of each operation the client receives the output of the relevant task
    4.The minimum distance between two submarines is one slot.<br />
  Example:<br />
  ````
- input:
+ Input:
  [1, 1, 0, 1, 1]
  [1, 0, 0, 1, 1]
  [1, 0, 0, 1, 1]
  
- output: 1
- input:
+ Output: 1
+ Input:
  [1, 1, 0, 1, 1]
  [0, 0, 0, 1, 1]
  [1, 1, 0, 1, 1]
  
- output: 3
+ Output: 3
 ````
 ### 4.Find the lightest path between two nodes:<br />
- input- `Metrix of integers, source & destination nodes` .<br />
- output- `list of the lightest paths`.<br />
+ Input- `Metrix of integers, source & destination nodes` .<br />
+ Output- `list of the lightest paths`.<br />
  Example:<br />
  ````
- input:
+ Input:
  [100, 100, 100]
  [500, 900, 300]
- source node - (1,0)
- destination node - (1, 2)
+ Source node - (1,0)
+ Destination node - (1, 2)
      
- output: [(1, 0), (0, 0), (0, 1), (0, 2), (1, 2)]
+ Output: [(1, 0), (0, 0), (0, 1), (0, 2), (1, 2)]
  ```` 
  ### Instructions:
  1.Download the code.<br />
