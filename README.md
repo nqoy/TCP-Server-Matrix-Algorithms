@@ -1,8 +1,10 @@
 # TCP-Server-Matrix-Algorithms
 
 ## summary:
- A TCP server that handles algorithmic operations on matrices of data, depending on the type of task he was given.<br />
- The various operations and client handling is executed Asynchronously via multithreading.<br />
+TCP server, preforming various algorithmic operations on data matrices.<br />
+Wrapping data as nodes and using graph algorithms for calculations.<br />
+The algorithmic operations and the handling of server clients are performed asynchronously via multithreading.<br />
+At the end of each operation the client receives the output of the relevant task.<br />
 
 ## Server Tasks:
 
