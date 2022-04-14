@@ -56,7 +56,7 @@ At the end of each operation the client receives the output of the relevant task
  Output: 3
 ````
 ### 4.Find the lightest path between two nodes:<br />
- Input- `Metrix of integers, source & destination nodes` .<br />
+ Input- `Metrix of integers, source & destination nodes`.<br />
  Output- `list of the lightest paths`.<br />
  Example:<br />
  ````
